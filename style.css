@@ -1,0 +1,73 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(193, 232, 255);
+}
+.one{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgb(255, 171, 76);
+    text-align: center;
+    border:solid 10px rgb(255, 255, 255);
+}
+.one input[type = "text"],.one input[type = "password"],.one input[type = "email"]{
+    padding: 10px 10px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 200px;
+    border:solid 4px rgb(0, 0, 39) ;
+    color:white;
+    font-size: 20px;
+    font-family:bold;
+}
+.one input[type="submit"]{
+    padding: 13px 35px;
+    font-size: 20px;
+    font-family: 400;
+    background:white;
+    border:none;
+}
+.one input[type="submit"]:hover{
+    background:rgb(255, 171, 76);
+}
+/* ---------------------------update */
+.two{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgb(255, 171, 76);
+    text-align: center;
+    border:solid 10px rgb(255, 255, 255);
+}
+.two input[type = "text"]{
+    padding: 10px 10px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 200px;
+    border:solid 4px rgb(0, 0, 39) ;
+    color: rgb(163, 5, 5);
+    font-size: 20px;
+    font-family:bold;
+    background-color: transparent;
+}
+.two input[type="submit"]{
+    padding: 13px 35px;
+    font-size: 20px;
+    font-family: 400;
+    background:white;
+    border:none;
+}
+.two input[type="submit"]:hover{
+    background:rgb(255, 171, 76);
+}
